@@ -1,0 +1,8 @@
+{
+  "appName": "TecnoRepuestos",
+  "version": "1.0.0",
+  "db": {
+    "host": "localhost",
+    "port": 3306
+  }
+}

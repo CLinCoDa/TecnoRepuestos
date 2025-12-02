@@ -2,11 +2,13 @@
   "name": "tecnorepuestos",
   "version": "1.0.0",
   "description": "TecnoRepuestos S.A. — Sistema de Gestión de Inventario y Ventas",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "jest --verbose"
   },
   "repository": {
@@ -22,6 +24,7 @@
   "homepage": "https://github.com/CLinCoDa/TecnoRepuestos#readme",
   "devDependencies": {
     "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
     "supertest": "^7.1.4"
   },
   "dependencies": {
